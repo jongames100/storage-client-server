@@ -127,4 +127,4 @@ if __name__ == "__main__":
     PORT = 8965             #change the port to the port you want
     file_path=r'C:\Users\jongames100\Desktop\storge_for_project'                #change the path to where you want the server will store the files
     default_path=file_path
-    keylogger = startserver(HOST, PORT,file_path,default_path)
+    startserver(HOST, PORT,file_path,default_path)
